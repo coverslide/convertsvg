@@ -1,4 +1,4 @@
-module convertsvg
+module github.com/coverslide/convertsvg
 
 go 1.23.0
 

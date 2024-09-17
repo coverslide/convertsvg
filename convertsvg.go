@@ -20,7 +20,7 @@ type Renderer int
 const (
 	PNG Renderer = iota
 	JPG
-)
+) 
 
 var rendererMap = map[Renderer]canvas.Writer{
 	PNG: renderers.PNG(),
