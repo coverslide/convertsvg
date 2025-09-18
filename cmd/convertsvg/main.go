@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/coverslide/convertsvg"
+	"github.com/coverslide/convertsvg/convert"
 )
 
 var rendererFlagMap = map[string]convertsvg.Renderer{
